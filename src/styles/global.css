@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Pretendard";
+}
+
+/* 여기서 뜨는 경로 오류는 무시해도 되는 오류입니다. */
+
+@font-face {
+    font-family: "Pretendard";
+    src: url("/fonts/Pretendard-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Pretendard";
+    src: url("/fonts/Pretendard-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Pretendard";
+    src: url("/fonts/Pretendard-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}

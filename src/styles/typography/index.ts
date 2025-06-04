@@ -1,53 +1,53 @@
 export const typography = {
-    Display1_Bold: {
+    custom_Display1_Bold: {
         fontSize: '36px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Display1_Medium: {
+    custom_Display1_Medium: {
         fontSize: '36px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Display1_Regular: {
+    custom_Display1_Regular: {
         fontSize: '36px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Display2_Bold: {
+    custom_Display2_Bold: {
         fontSize: '32px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Display2_Medium: {
+    custom_Display2_Medium: {
         fontSize: '32px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Display2_Regular: {
+    custom_Display2_Regular: {
         fontSize: '32px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Title1_Bold: {
+    custom_Title1_Bold: {
         fontSize: '28px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Title1_Medium: {
+    custom_Title1_Medium: {
         fontSize: '28px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Title1_Regular: {
+    custom_Title1_Regular: {
         fontSize: '28px',
         fontWeight: 400,
         lineHeight: 1.3,
@@ -107,56 +107,94 @@ export const typography = {
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Body_Bold: {
+    Body1_Bold: {
         fontSize: '16px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Body_Medium: {
+    Body1_Medium: {
         fontSize: '16px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Body_Regular: {
+    Body1_Regular: {
         fontSize: '16px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
-    },
-    Label_Bold: {
+    },    
+    Body2_Bold: {
         fontSize: '14px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Label_Medium: {
+    Body2_Medium: {
         fontSize: '14px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Label_Regular: {
+    Body2_Regular: {
         fontSize: '14px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Caption_Bold: {
+
+    custom_Label_Bold: {
+        fontSize: '14px',
+        fontWeight: 700,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    custom_Label_Medium: {
+        fontSize: '14px',
+        fontWeight: 500,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    custom_Label_Regular: {
+        fontSize: '14px',
+        fontWeight: 400,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Caption1_Bold: {
         fontSize: '12px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Caption_Medium: {
+    Caption1_Medium: {
         fontSize: '12px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    Caption_Regular: {
+    Caption1_Regular: {
         fontSize: '12px',
+        fontWeight: 400,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+
+    Caption2_Bold: {
+        fontSize: '10px',
+        fontWeight: 700,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Caption2_Medium: {
+        fontSize: '10px',
+        fontWeight: 500,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Caption2_Regular: {
+        fontSize: '10px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",

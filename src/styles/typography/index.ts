@@ -1,76 +1,77 @@
 export const typography = {
-    custom_Display1_Bold: {
-        fontSize: '36px',
+    Title1_Bold: {
+        fontSize: '40px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    custom_Display1_Medium: {
-        fontSize: '36px',
+    Title1_Medium: {
+        fontSize: '40px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    custom_Display1_Regular: {
-        fontSize: '36px',
-        fontWeight: 400,
-        lineHeight: 1.3,
-        fontFamily: "Pretendard",
-    },
-    custom_Display2_Bold: {
-        fontSize: '32px',
-        fontWeight: 700,
-        lineHeight: 1.3,
-        fontFamily: "Pretendard",
-    },
-    custom_Display2_Medium: {
-        fontSize: '32px',
-        fontWeight: 500,
-        lineHeight: 1.3,
-        fontFamily: "Pretendard",
-    },
-    custom_Display2_Regular: {
-        fontSize: '32px',
-        fontWeight: 400,
-        lineHeight: 1.3,
-        fontFamily: "Pretendard",
-    },
-    custom_Title1_Bold: {
-        fontSize: '28px',
-        fontWeight: 700,
-        lineHeight: 1.3,
-        fontFamily: "Pretendard",
-    },
-    custom_Title1_Medium: {
-        fontSize: '28px',
-        fontWeight: 500,
-        lineHeight: 1.3,
-        fontFamily: "Pretendard",
-    },
-    custom_Title1_Regular: {
-        fontSize: '28px',
+    Title1_Regular: {
+        fontSize: '40px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
     Title2_Bold: {
-        fontSize: '24px',
+        fontSize: '36px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
     Title2_Medium: {
-        fontSize: '24px',
+        fontSize: '36px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
     Title2_Regular: {
+        fontSize: '36px',
+        fontWeight: 400,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Title3_Bold: {
+        fontSize: '32px',
+        fontWeight: 700,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Title3_Medium: {
+        fontSize: '32px',
+        fontWeight: 500,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Title3_Regular: {
+        fontSize: '32px',
+        fontWeight: 400,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Title4_Bold: {
+        fontSize: '24px',
+        fontWeight: 700,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Title4_Medium: {
+        fontSize: '24px',
+        fontWeight: 500,
+        lineHeight: 1.3,
+        fontFamily: "Pretendard",
+    },
+    Title4_Regular: {
         fontSize: '24px',
         fontWeight: 400,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
+
     HeadLine1_Bold: {
         fontSize: '20px',
         fontWeight: 700,
@@ -144,19 +145,19 @@ export const typography = {
         fontFamily: "Pretendard",
     },
 
-    custom_Label_Bold: {
+    Label_Bold: {
         fontSize: '14px',
         fontWeight: 700,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    custom_Label_Medium: {
+    Label_Medium: {
         fontSize: '14px',
         fontWeight: 500,
         lineHeight: 1.3,
         fontFamily: "Pretendard",
     },
-    custom_Label_Regular: {
+    Label_Regular: {
         fontSize: '14px',
         fontWeight: 400,
         lineHeight: 1.3,

@@ -43,6 +43,9 @@ export const sementic = {
         1: "rgba(0, 0, 0, 0.02)",
         2: "rgba(0, 0, 0, 0.04)",
         3: "rgba(0, 0, 0, 0.06)",
+        4: "rgba(0, 0, 0, 0.08)",
+        5: "rgba(0, 0, 0, 0.1)",
+        6: "rgba(0, 0, 0, 0.16)",
     },
     Status: {
         Error: pallete.Red["50"],

@@ -1,12 +1,3 @@
----
-name: PR Template
-about: Linty's Pull Request Template
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ##### **📘 한 내용**
 
 ## ⛳️ 작업 내용

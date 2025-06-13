@@ -11,10 +11,14 @@ const Button = ({
                     onClick,
                 }: ButtonProps) => {
     return (
-        <S.Button $color={color} onClick={onClick}>
-            {icon && iconPosition === "left" && icon}
-            <S.ButtonText $color={color}>{text}</S.ButtonText>
-            {icon && iconPosition === "right" && icon}
+        <S.Button $color={color} $icon={!!icon} onClick={onClick}>
+            {iconPosition === "left"
+                ? (icon ?? <div style={{ width: 24 }} />)
+                : <div style={{ width: 24 }} />}
+            <S.ButtonText $color={color} $icon={!!icon}>{text}</S.ButtonText>
+            {iconPosition === "right"
+                ? (icon ?? <div style={{ width: 24 }} />)
+                : <div style={{ width: 24 }} />}
         </S.Button>
     );
 };

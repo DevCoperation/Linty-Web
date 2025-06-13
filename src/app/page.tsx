@@ -3,8 +3,8 @@
 import styled from "styled-components";
 
 const Wrapper = styled.p`
-    ${({theme}) => theme.typography.Title2_Bold};
-    color: ${({theme}) => theme.sementic.Primary.Normal};
+    ${({theme}) => theme.typography.title2_bold};
+    color: ${({theme}) => theme.sementic.primary.normal};
 `;
 
 const Main = () => {

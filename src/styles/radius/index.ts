@@ -1,7 +1,7 @@
 export const shape = {
-    ExtraLarge: 28,
-    Large: 16,
-    Medium: 12,
-    Small: 10,
-    ExtraSmall: 8,
+    extraLarge: '28px',
+    large: '16px',
+    medium: '12px',
+    small: '10px',
+    extraSmall: '8px',
 }

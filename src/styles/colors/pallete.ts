@@ -1,4 +1,4 @@
-const Neutral = {
+const neutral = {
     99: "#FCFCFD",
     97: "#F6F6F7",
     95: "#F2F2F3",
@@ -17,7 +17,7 @@ const Neutral = {
     5: "#0C0C0D",
 }
 
-const Red = {
+const red = {
     99: "#FEFBFB",
     95: "#FCE9E9",
     90: "#F9D2D2",
@@ -31,7 +31,7 @@ const Red = {
     10: "#2F0404",
 }
 
-const Orange = {
+const orange = {
     99: "#FFFDFA",
     95: "#FEF5E6",
     90: "#FEEACD",
@@ -45,7 +45,7 @@ const Orange = {
     10: "#321E01",
 }
 
-const Yellow = {
+const yellow = {
     99: "#FFFEFA",
     95: "#FFFAE5",
     90: "#FFF5CC",
@@ -59,7 +59,7 @@ const Yellow = {
     10: "#332900",
 }
 
-const Green = {
+const green = {
     99: "#FBFEFB",
     95: "#E8FCEA",
     90: "#D2F9D6",
@@ -73,7 +73,7 @@ const Green = {
     10: "#042F08",
 }
 
-const Blue = {
+const blue = {
     99: "#F2F8FF",
     95: "#D8ECFF",
     90: "#8FE0FF",
@@ -87,7 +87,7 @@ const Blue = {
     10: "#021024",
 }
 
-const Purple = {
+const purple = {
     99: "#F7F5FF",
     95: "#E4E0FB",
     90: "#D0CCF7",
@@ -101,18 +101,18 @@ const Purple = {
     10: "#0A0C1D",
 }
 
-const Common = {
+const common = {
     100: "#000",
     0: "#fff",
 }
 
 export const pallete = {
-    Neutral,
-    Red,
-    Orange,
-    Yellow,
-    Green,
-    Blue,
-    Purple,
-    Common,
+    neutral,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple,
+    common,
 }

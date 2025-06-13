@@ -1,16 +1,28 @@
-import ReactDom from "react-dom";
+"use client";
 
-interface ModalPortalType {
+import { useEffect, useState } from "react";
+import ReactDOM from "react-dom";
+
+interface PortalProps {
     children: React.ReactNode;
 }
 
-const ModalPortal = ({ children }: ModalPortalType) => {
+const Portal = ({ children }: PortalProps) => {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) return null;
+
     const el = document.getElementById("modal");
     if (!el) {
         console.error('Element with id "modal" not found');
         return null;
     }
-    return ReactDom.createPortal(children, el);
+
+    return ReactDOM.createPortal(children, el);
 };
 
-export default ModalPortal;
+export default Portal;

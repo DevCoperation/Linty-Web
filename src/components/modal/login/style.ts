@@ -56,10 +56,28 @@ export const Routing = styled.div`
     width: 100%;
 `;
 
+export const Divide = styled.div`
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+`
+
+export const Divider = styled.div`
+    width: 100%;
+    height: 1px;
+    background-color: ${({theme}) => theme.sementic.line.normal};
+`
+
+export const DividerText = styled.span`
+    color: ${({theme}) => theme.sementic.line.normal};
+    ${({theme}) => theme.typography.caption1_medium};
+`
+
 export const RoutingSpan = styled.span`
     width: 100%;
     cursor: pointer;
-    ${({ theme }) => theme.typography.caption1_medium};
-    color: ${({ theme }) => theme.sementic.label.neutral};
+    ${({theme}) => theme.typography.caption1_medium};
+    color: ${({theme}) => theme.sementic.label.neutral};
     text-align: center;
 `;

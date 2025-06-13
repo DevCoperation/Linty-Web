@@ -48,6 +48,11 @@ const Login = ({isOpen, onClose}: ModalProps) => {
                             <S.RoutingSpan>|</S.RoutingSpan>
                             <S.RoutingSpan>회원가입</S.RoutingSpan>
                         </S.Routing>
+                        <S.Divide>
+                            <S.Divider />
+                            <S.DividerText>or</S.DividerText>
+                            <S.Divider/>
+                        </S.Divide>
                         <Button text="구글로 로그인하기" color="white" iconPosition="left" icon={<Google />} />
                     </S.ButtonWrap>
                 </S.ModalContent>
